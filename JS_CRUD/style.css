@@ -1,0 +1,30 @@
+body{
+    background-image: ur1("background. jpg.");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+table {
+     width: 801;
+     margin: 40px auto;
+     background:Brgb (124,154,167);
+}
+table.list{
+    text-align: center;
+    width: 180%;
+}
+td{
+     border: 1px solid rgb(284,200,200);
+     text-align: left;
+     padding: 8px 15px;
+}
+tr:nth-child(even), table.list thread> tr{
+background-color: rgb(165, 161, 161);
+}
+input [type="text"], input [type="number"]{
+width: 91%;
+padding: 12px 20px;
+margin:8px;
+display: inline-block;
+border: 1px sold rgb(165, 161, 161);
+}
